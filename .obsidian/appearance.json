@@ -1,5 +1,7 @@
 {
   "cssTheme": "Cyber Glow",
   "theme": "obsidian",
-  "translucency": false
+  "translucency": false,
+  "baseFontSizeAction": true,
+  "baseFontSize": 23
 }

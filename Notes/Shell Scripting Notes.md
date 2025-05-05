@@ -11,31 +11,23 @@
 
 ```shell
 <<comment
-
 {text 1}
-
 {text 2}
-
 comment
 ```
 
-  
 
 - Print name of the script -> ` echo "$0"`
 
 - Enable debugging in script -> `set -x` after shebang in next line.
 
-- If We want to exit our script when a
+- If We want to exit our script when a command fail -> `set -e` after shebang in next line.
 
-command fail -> `set -e` after shebang in next line.
+- To exit the script -> `exit`
 
-- To exit the scritp -> `exit`
-
-- To check status of previous command -> `$?` returns 0 if it was successful else unsussessful.
+- To check status of previous command -> `$?` returns 0 if it was successful else unsuccessful.
 
 - To sleep the script for some time , `sleep time_in_sec`
-
-  
 
 - Arguments passed to scripts
 
@@ -61,42 +53,31 @@ There are no data types in Bash, variable is capable of storing all types of val
   
 
 1. Assign a value.
+	`country=India`
 
-`country=India`
-
-  
 
 2. To access the value of varible use `$` sign.
+	`echo $country`
 
-`echo $country`
 
 3. read command to read the input from console in variable.
+	`read country`
 
-`read country`
 
 4. read command to read the input from console in variable with print statement.
+	`read -p "your country " country`
 
-`read -p "your country " country`
 
 5. constant variables.
+	`readonly var_name="Hi" `   
 
-`readonly var_name="Hi"`
-
-  
 
 6. To perform arthmethic operation on variables , we need to enclose them in `(( ))`
-
 ```shell
-
 ((a++))
-
 ((a=5*10))
-
 ```
 
-  
-  
-  
 
 ------------------------
 
@@ -119,15 +100,9 @@ It is more similar to List in python.
 5. Get sub-array ->
 
 ```shell
-
 #syntax -> ${myArray[*]:start_index:lenght}
 
-  
-
 echo "${myArray[*]:1:2}"
-
-  
-
 ```
 
 6. Append to array -> `myArray+=( 5 6 7 )`
@@ -147,17 +122,11 @@ similar to python dictionary
   
 
 ```shell
-
 declare -A myArray
-
-  
 
 myArray=( [name]=Paul [age]=20 )
 
-  
-
 echo "${myArray[name]}"
-
 ```
 
   
@@ -171,41 +140,22 @@ echo "${myArray[name]}"
   
 
 ```shell
-
-  
-
 myVar="Hello World!"
 
-  
-
 # Length of the string
-
 length=${#myVar}
 
-  
-
 # Transform to uppercase
-
 upper=${x^^}
 
 # Transform to lower case
-
 lower=${y,,}
 
-  
-
 # Replace "World" to "Buddy" in myVar
-
 replace=${myVar/World/Buddy}
 
-  
-
 # Slice from 6th index to 11th index
-
 slice=${myVar:6:11}
-
-  
-
 ```
 
   
@@ -254,21 +204,13 @@ slice=${myVar:6:11}
   
 
 ```shell
-
 if [ $marks -gt 40 ]
-
 then
-
-echo "You are PASS"
-
-  
+	echo "You are PASS"
 
 else
-
-echo "You are FAIL"
-
+	echo "You are FAIL"
 fi
-
 ```
 
   
@@ -280,29 +222,15 @@ fi
 ```shell
 
 if [ $marks -ge 80 ]
-
 then
-
-echo "First Division"
-
-  
+	echo "First Division"
 
 elif [ $marks -ge 60 ]
-
 then
-
-echo "Second Division"
-
-  
-
+	echo "Second Division"
 else
-
-echo "Fail""
-
-  
-
+	echo "Fail""
 fi
-
 ```
 
   
@@ -324,35 +252,20 @@ fi
 - syntax
 
 ```bash
-
 case expression in
-
 pattern1)
-
-# code to execute if expression matches pattern1
-
-;;
-
+	# code to execute if expression matches pattern1
+	;;
 pattern2)
-
-# code to execute if expression matches pattern2
-
-;;
-
+	# code to execute if expression matches pattern2
+	;;
 pattern3)
-
-# code to execute if expression matches pattern3
-
-;;
-
+	# code to execute if expression matches pattern3
+	;;
 *)
-
-# code to execute if none of the above patterns match expression
-
-;;
-
+	# code to execute if none of the above patterns match expression
+	;;
 esac
-
 ```
 
 - example
@@ -360,43 +273,24 @@ esac
   
 
 ```bash
-
 echo "Hey choose an option"
-
 echo "a = To see the current date"
-
 echo "b = list all the files in current dir"
-
-  
 
 read choice
 
-  
-
 case $choice in
 
-a)
+	a)
+		date
+		;;
+	b)
+		ls
+		;;
+	*)
+	echo "Non a valid input"
 
-date
-
-;;
-
-b)
-
-ls
-
-;;
-
-*)
-
-echo "Non a valid input"
-
-  
-
-esac
-
-  
-
+esac 
 ```
 
   
@@ -414,51 +308,27 @@ esac
 - Simple loop
 
 ```shell
-
-  
-
 # First way
-
 for i in 1 2 3 4 5
-
 do
-
-echo "Number is $i"
-
+	echo "Number is $i"
 done
 
-  
-
-#Second way
-
+# Second way
 for j in Raju Sham Baburao
 
-  
-
-#Third way , {1..2} it will generate a array from 1 to 20
-
+# Third way , {1..2} it will generate a array from 1 to 20
 for p in {1..20}
-
-  
-
 ```
 
 - Iterate values from file
 
 ```bash
-
 items="/home/paul/file.txt"
-
-  
-
 for item in $(cat $items)
-
 do
-
-echo $item
-
+	echo $item
 done
-
 ```
 
   
@@ -468,23 +338,14 @@ done
 - Simple loop
 
 ```shell
-
 count=0
-
 num=10
 
-  
-
 while [ $count -le $num ]
-
 do
-
-echo "Numbers are $count"
-
-let count++
-
+	echo "Numbers are $count"
+	let count++
 done
-
 ```
 
 3. **UNTIL**
