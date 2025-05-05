@@ -1,5 +1,6 @@
 {
   "promptDelete": false,
   "showLineNumber": true,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "showInlineTitle": false
 }

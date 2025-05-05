@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3173d3b31e5d2b17",
+        "id": "fed47408e3bc0f8f",
         "type": "tabs",
         "children": [
           {
-            "id": "3b5cef95a0db16c3",
+            "id": "b5cd09de6aab5790",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Shell Scripting Notes.md",
+                "file": "Notes/Markdown.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Shell Scripting Notes"
+              "title": "Markdown"
             }
           }
         ]
@@ -190,12 +190,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b5cef95a0db16c3",
+  "active": "b5cd09de6aab5790",
   "lastOpenFiles": [
-    "Notes/Markdown.md",
-    "Notes/Shell Scripting Notes.md",
-    "Basic of LLM Hosting backend.md",
     "Template/Initial template.md",
+    "Notes/Shell Scripting Notes.md",
+    "Notes/Markdown.md",
+    "www.google.com.md",
+    "images/tux.png.md",
+    "images",
+    "run_all.sh",
+    "Rough Notes/05-05-2025.md",
+    "Untitled.canvas",
+    "Basic of LLM Hosting backend.md",
     "Main.md",
     "Office",
     "Template",

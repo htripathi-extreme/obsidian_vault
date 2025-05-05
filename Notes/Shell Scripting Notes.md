@@ -1,7 +1,6 @@
-
 # Shell Scripting Notes
 
-  
+  #Shell_script #Bash
 
 - `#!/bin/bash` -> called as shebang tells the shell to execute it via bash shell. Shebang is simply an absolute path to the bash interpreter.
 
@@ -172,21 +171,14 @@ slice=${myVar:6:11}
 
 - Logical operators
 
-| Meaning | symbol |
-
-|---------|--------|
-
-| Equal | -eq |
-
-| Greaterthanorequalto | -ge |
-
-| Lessthanorequalto | -le |
-
-| Not Equal | -ne |
-
-| Greater Than | -gt |
-
-| Less Than | -lt |
+| Meaning              | symbol |
+| -------------------- | ------ |
+| Equal                | -eq    |
+| Greaterthanorequalto | -ge    |
+| Lessthanorequalto    | -le    |
+| Not Equal            | -ne    |
+| Greater Than         | -gt    |
+| Less Than            | -lt    |
 
 - `if [ -d folder_name]` -> If folder exists
 
@@ -280,7 +272,6 @@ echo "b = list all the files in current dir"
 read choice
 
 case $choice in
-
 	a)
 		date
 		;;
@@ -288,7 +279,7 @@ case $choice in
 		ls
 		;;
 	*)
-	echo "Non a valid input"
+		echo "Non a valid input"
 
 esac 
 ```
@@ -351,21 +342,12 @@ done
 3. **UNTIL**
 
 ```shell
-
 a=10
-
-  
-
 until [ $a -eq 1 ]
-
 do
-
-echo $a
-
+	echo $a
 a=`expr $a - 1`
-
 done
-
 ```
 
   
@@ -382,27 +364,16 @@ done
 - Simple use
 
 ```shell
-
 function myfun() {
-
-echo "Hi"
-
+	echo "Hi"
 }
 
-  
-
-myfun() {
-
-echo "Hello"
-
+  myfun() {
+	echo "Hello"
 }
-
-  
 
 ##To call the function
-
 myfun
-
 ```
 
   
@@ -414,25 +385,14 @@ myfun
   
 
 ```bash
-
 addition() {
-
 local num1=$1
-
 local num2=$2
-
 sum=$(($num1+$num2))
-
-  
-
 echo “Sum of $num1 and $num2 is $sum ”
-
 }
 
-  
-
 addition 12 13
-
 ```
 
 -----------------------
@@ -446,15 +406,9 @@ addition 12 13
 - Read content from file
 
 ```shell
-
 while read myVar
-
 do
-
-echo $myVar
-
-  
-
+	echo $myVar
 done < file_name
 
 ```
@@ -464,15 +418,19 @@ done < file_name
 - Writing to file.
 
 `echo "Hello world" > output.txt`
-
   
-
 - Appending to file.
 
 `echo "Hello world again !!" >> output.txt`
-
   
 
 - Redirect the output of a command to any file.
 
 `ls > files.txt`
+
+
+---
+
+### Example Script
+
+![[run_all.sh]]
