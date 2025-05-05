@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9a8a48acdf2a24c1",
+        "id": "3173d3b31e5d2b17",
         "type": "tabs",
         "children": [
           {
-            "id": "13be6ed2ede82dd2",
+            "id": "3b5cef95a0db16c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basic of LLM Hosting backend.md",
+                "file": "Notes/Markdown.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Basic of LLM Hosting backend"
+              "title": "Markdown"
             }
           }
         ]
@@ -176,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,10 +190,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "13be6ed2ede82dd2",
+  "active": "3b5cef95a0db16c3",
   "lastOpenFiles": [
-    "Template/Initial template.md",
+    "Notes/Markdown.md",
     "Basic of LLM Hosting backend.md",
+    "Template/Initial template.md",
     "Main.md",
     "Office",
     "Template",
