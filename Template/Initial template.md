@@ -1,9 +1,9 @@
-
 Created: {{date}}
 Status:
 Tags: 
 
 ---
+
 
 {{Title}}
 
@@ -11,5 +11,7 @@ Tags:
 
 
 
+---
 
 References
+
