@@ -168,7 +168,6 @@ slice=${myVar:6:11}
   
 
 - **AND** condtion -> `&&` , **OR** conditon -> `||`
-
 - Logical operators
 
 | Meaning              | symbol |

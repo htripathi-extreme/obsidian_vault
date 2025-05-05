@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fed47408e3bc0f8f",
+        "id": "2acdfa8954c745f4",
         "type": "tabs",
         "children": [
           {
-            "id": "b5cd09de6aab5790",
+            "id": "cc04365bb305289a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Markdown.md",
+                "file": "Basic of LLM Hosting backend.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Markdown"
+              "title": "Basic of LLM Hosting backend"
             }
           }
         ]
@@ -190,18 +190,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b5cd09de6aab5790",
+  "active": "cc04365bb305289a",
   "lastOpenFiles": [
-    "Template/Initial template.md",
+    "Rough Notes/05-05-2025.md",
+    "Basic of LLM Hosting backend.md",
+    "www.google.com.md",
+    "Untitled.canvas",
     "Notes/Shell Scripting Notes.md",
     "Notes/Markdown.md",
-    "www.google.com.md",
+    "Template/Initial template.md",
     "images/tux.png.md",
     "images",
     "run_all.sh",
-    "Rough Notes/05-05-2025.md",
-    "Untitled.canvas",
-    "Basic of LLM Hosting backend.md",
     "Main.md",
     "Office",
     "Template",
