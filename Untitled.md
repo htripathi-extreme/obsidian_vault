@@ -1,12 +1,12 @@
 This is a initial template.
 
-{{date}} {{time}}
+05-05-2025 20:24
 
 Status:
 
 Tags: 
 
-{{Title}}
+Untitled
 
 
 References
