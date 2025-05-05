@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "96c0ff1170e06285",
+        "id": "9a8a48acdf2a24c1",
         "type": "tabs",
         "children": [
           {
-            "id": "8f13999a54890ecd",
+            "id": "13be6ed2ede82dd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Basic of LLM Hosting backend.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Basic of LLM Hosting backend"
             }
           }
         ]
@@ -189,10 +189,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f13999a54890ecd",
+  "active": "13be6ed2ede82dd2",
   "lastOpenFiles": [
-    "Untitled.md",
     "Template/Initial template.md",
+    "Basic of LLM Hosting backend.md",
+    "Main.md",
     "Office",
     "Template",
     "Source Material",

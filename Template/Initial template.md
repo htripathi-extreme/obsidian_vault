@@ -1,12 +1,15 @@
-This is a initial template.
 
-{{date}} {{time}}
-
+Created: {{date}}
 Status:
-
 Tags: 
 
+---
+
 {{Title}}
+
+
+
+
 
 
 References
